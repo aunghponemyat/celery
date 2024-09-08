@@ -15,7 +15,7 @@ user$ python src/celery_app/main.py
 
 This command triggers celery to use the
 dedicated queue and worker name defined by the
-custom ser input.
+custom user input.
 ```
 user$ Enter name: <your-desired-name>
 ```
