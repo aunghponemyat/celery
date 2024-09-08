@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "celery-app"
+version = "0.1.0"
+description = ""
+authors = ["Aung Hpone Myat <aunghpone.myat@frontiir.net>"]
+readme = "README.md"
+packages = [{include = "celery_app", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic-settings = "^2.4.0"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.33"}
+pymysql = "^1.1.1"
+psutil = "^6.0.0"
+redis = "^5.0.8"
+celery = "^5.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
