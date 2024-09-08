@@ -1,6 +1,6 @@
 ## Python Celery Task Tracker
 
-- Intended for backaground processing of python I/O bound tasks inside Celery using threads for monitoring and redis for task queue handler.
+- Intended for background processing of python I/O bound tasks inside Celery using threads for monitoring and redis for task queue handler.
 
 - Task IDs and their life cycle will also be managed by a logic that is implemeted upon the mechanism supported by redis keys.
 
